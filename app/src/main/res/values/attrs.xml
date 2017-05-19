@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="name" format="string" />
+    <attr name="value" format="string" />
+    <attr name="baseUrl" format="string" />
+    <declare-styleable name="Form">
+        <attr name="action" format="string" />
+        <attr name="method">
+            <enum name="GET" value="1" />
+            <enum name="POST" value="2" />
+        </attr>
+        <attr name="baseUrl" />
+    </declare-styleable>
+
+    <declare-styleable name="HttpTextView">
+        <attr name="name" />
+    </declare-styleable>
+
+    <declare-styleable name="HttpEditText">
+        <attr name="name" />
+    </declare-styleable>
+
+    <declare-styleable name="HttpCheckBox">
+        <attr name="name" />
+        <attr name="value" />
+    </declare-styleable>
+
+    <declare-styleable name="HttpRadioButton">
+        <attr name="value" />
+        <attr name="name" />
+    </declare-styleable>
+
+    <declare-styleable name="HttpRadioGroup">
+        <attr name="name" />
+    </declare-styleable>
+
+    <declare-styleable name="HttpSpinner">
+        <attr name="name" />
+    </declare-styleable>
+
+    <declare-styleable name="HttpSwitch">
+        <attr name="name" />
+        <attr name="value" />
+    </declare-styleable>
+
+</resources>

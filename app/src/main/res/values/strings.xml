@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">NetViews</string>
+    <string name="username">Username</string>
+    <string name="username_field">username</string>
+    <string name="password">Password</string>
+    <string name="password_field">Password</string>
+    <string name="submit">Submit</string>
+    <string name="student">Student</string>
+    <string name="student_field">student</string>
+    <string name="male">Male</string>
+    <string name="gender_value">gender</string>
+    <string name="female">Female</string>
+    <string name="country">Country</string>
+    <string name="country_value">country</string>
+    <string name="available">Available</string>
+    <string name="available_value">available</string>
+    <string name="base_url">http://192.168.43.221/</string>
+    <string name="action">netviews.php</string>
+    <string-array name="countries">
+        <item>Kenya</item>
+        <item>Tanzania</item>
+        <item>Uganda</item>
+        <item>Somalia</item>
+        <item>Djibouti</item>
+        <item>Rwanda</item>
+        <item>Burundi</item>
+        <item>Ethiopia</item>
+    </string-array>
+</resources>
